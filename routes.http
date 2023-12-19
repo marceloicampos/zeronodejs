@@ -1,0 +1,13 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+Accept-Language: pt-BR
+
+{
+  "title": "Video1",
+  "description": "Este é o video1",
+  "duration": 3000
+}
+
+###
+
+GET http://localhost:3333/videos
